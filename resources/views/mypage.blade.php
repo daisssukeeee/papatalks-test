@@ -11,7 +11,7 @@
     <div class="container">
         <h1>{{ $userProfile->profile_name }} のプロフィール</h1>
         <div>
-            <img src="{{ $userProfile->picture_url }}" alt="{{ $userProfile->profile_name }}" style="width: 150px; height: 150px; border-radius: 75px;">
+            {{-- <img src="{{ $userProfile->picture_url }}" alt="{{ $userProfile->profile_name }}" style="width: 150px; height: 150px; border-radius: 75px;"> --}}
         </div>
         <p><strong>生年月日：</strong>{{ $userProfile->birth_date }}</p>
         <p><strong>居住地：</strong>{{ $userProfile->state }}</p>
